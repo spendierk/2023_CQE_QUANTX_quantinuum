@@ -20,14 +20,12 @@ You’ll be able to test your project on the [H1-2 emulator (20-qubits)](https:/
 Participants paired up with the Quantinuum provider need to provide kathrin.spendier@quantinuum.com with an email address and their team’s name to set up their emulator account. Once your email is added to the system, you will receive an invitation email from QCadmin@quantinuum.com, which you have to open and follow the steps outlined. You will be asked to accept the Quantinuum “Policy & Terms of USE” https://um.qapi.quantinuum.com/static/media/user_terms_and_conditions.46957d35.pdf. 
 You need to accept the terms and conditions to unlock access to the Quantinuum emulator. Please make sure that you have access to the emulator by Friday early afternoon. If you have issues signing up, please find a Quantinuum staff member for help or email kathrin.spendier@quantinuum.com.
 
-#### Note: please check you spam/junk email folder for the invitation email from QCadmin@quantinuum.com
+#### Note: please check your spam/junk email folder for the invitation email from QCadmin@quantinuum.com
 
 
-### Supporting videos for sign-up process
+### Supporting video for sign-up process
 
 [Here](https://drive.google.com/file/d/1EEUQUnHMp-wvQJlWN-RTQUHElcsALF6U/view?usp=sharing) is the link to log in to the user portal after setting up your account.
-
-[Here](https://drive.google.com/file/d/10uC78GvZn2M_PC4y8cIvJ8A51-03Yxp8/view?usp=sharing) is a video going over the user portal and example notebooks.
 
 
 ### Exploiting Mid-circuit Measurement and Qubit Reuse using the Quantinuum H1-2 Emulator
@@ -53,9 +51,9 @@ To access the Quantinuum H1-2 emulator, you will be using [TKET](https://www.qua
 
  
 ### TKET and H1-2 Emulator tutorial
-This repository has a sample notebooks you can use to get started. 
+This repository has sample notebooks you can use to get started. 
 
-[Here](https://github.com/iQuHACK/2023_planning_quantinuum/tree/main/TKET%20and%20Emulator%20tutorial) you will find a sample notebook that goes over the basics of circuit preparation and submission with `pytket`, outlines how to convert between `pytket` and other quantum SDKs like Qiskit, as well as how to perform the mid-circuit measurement and qubit reuse on the H1-2 emulator.
+[Here](https://github.com/spendierk/2023_CQE_QUANTX_quantinuum/blob/main/TKET%20and%20Emulator%20tutorial/TKET%20and%20Emulator%20tutorial.ipynb) you will find a sample notebook that goes over the basics of circuit preparation and submission with `pytket`, outlines how to convert between `pytket` and other quantum SDKs like Qiskit, as well as how to perform the mid-circuit measurement and qubit reuse on the H1-2 emulator. [HERE TO BE ADDED AFTER TUTORIAL[ is a video going over this tutorial.
 
 [Here](https://colab.research.google.com/drive/133TKFNCUKfS6zwL_PXgWJjedr7lxHUZg?usp=sharing) you will find a quick-start Google Colab notebook, guiding you through submitting and running a circuit on the H1-2 Emulator, including package installation, circuit definition, backend setup, job monitoring, and result retrieval.
 
